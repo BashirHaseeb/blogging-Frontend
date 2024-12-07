@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { motion } from "framer-motion";
 import TypewriterEffect from "@/components/Typewritter";
+import { useRouter } from "next/navigation";
 
 export default function AdminPanel() {
 
@@ -22,6 +23,15 @@ export default function AdminPanel() {
             document.body.removeChild(script);
         };
     }, []);
+
+    const router = useRouter()
+
+    useEffect(() => {
+        const token = localStorage.getItem("token");
+        if (!token) {
+            router.push('/login')
+        }
+    }, [])
 
 
     // Fetch personal info

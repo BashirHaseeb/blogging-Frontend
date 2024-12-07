@@ -73,8 +73,8 @@ export default function Home() {
 
   return (
     <>
-      <main className="flex items-center justify-center h-[85vh] px-3 ">
-        <div className="flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8 w-full h-auto p-20 border-b-2">
+      <main className="flex items-center justify-center min-h-[90vh] px-2 ">
+        <div className="flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-8 w-full h-auto p-16 border-b-2">
           {/* Left side: Description with Typewriter effect */}
           <div className="w-full md:w-1/2 flex flex-col justify-center font-mono space-y-5 text-center md:text-left">
             <h1 className="text-2xl md:text-4xl font-semibold">
