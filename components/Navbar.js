@@ -46,7 +46,7 @@ export default function Navbar() {
           {/* logo */}
           <img src="/logo.webp" className="w-10 rounded-full cursor-pointer" alt="" />
           <ModeToggle />
-          <Link href="/">AB's Blogs</Link>
+          <Link href="/">AB&apos;s Blogs</Link>
         </div>
 
         {/* Desktop Links */}
