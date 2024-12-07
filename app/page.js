@@ -81,9 +81,9 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: [
-                    "Hi! It's M.Abdullah Bashir",
+                    "Hi! Its M.Abdullah Bashir",
                     "I am a Web Developer",
-                    "Let’s Build Something Amazing!",
+                    "Lets Build Something Amazing!",
                   ],
                   autoStart: true,
                   loop: true,
