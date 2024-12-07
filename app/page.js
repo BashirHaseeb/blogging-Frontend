@@ -231,10 +231,12 @@ export default function Home() {
           <div className="w-full md:w-1/2 px-10 text-sm mb-10 md:mr-10 mr-0">
             <div className="text-center mb-2">
               <div
-                className={`transition-all duration-500 ease-in-out overflow-hidden ${isExpanded ? "max-h-full" : "max-h-20"}`}
+                className={`transition-all duration-500 ease-in-out overflow-hidden ${isExpanded ? "max-h-full" : "max-h-20"
+                  }`}
               >
-                "I have developed a solid foundation in both front-end and back-end technologies, along with experience in data structures and algorithms (DSA) using python. On the front-end, I work with HTML, CSS, and JavaScript to create interactive user interfaces, enhanced by frameworks like React.js and Next.js for building responsive and modern web applications. On the back-end, I use Node.js and Express.js for developing scalable APIs and robust server-side logic, with MongoDB as my go-to database for secure and efficient data management. Additionally, I have a basic understanding of Python and its libraries, such as NumPy, Pandas, scikit-learn, and Matplotlib, which I use for simple data manipulation, visualization, and exploring introductory AI/ML concepts. My proficiency in DSA using C++ helps me optimize algorithms and improve application performance. This diverse skill set allows me to approach projects holistically while continuously expanding my knowledge to stay up-to-date with emerging technologies."
+                &quot;I have developed a solid foundation in both front-end and back-end technologies, along with experience in data structures and algorithms (DSA) using python. On the front-end, I work with HTML, CSS, and JavaScript to create interactive user interfaces, enhanced by frameworks like React.js and Next.js for building responsive and modern web applications. On the back-end, I use Node.js and Express.js for developing scalable APIs and robust server-side logic, with MongoDB as my go-to database for secure and efficient data management. Additionally, I have a basic understanding of Python and its libraries, such as NumPy, Pandas, scikit-learn, and Matplotlib, which I use for simple data manipulation, visualization, and exploring introductory AI/ML concepts. My proficiency in DSA using C++ helps me optimize algorithms and improve application performance. This diverse skill set allows me to approach projects holistically while continuously expanding my knowledge to stay up-to-date with emerging technologies.&quot;
               </div>
+
             </div>
 
             <div className="w-full flex justify-center">
